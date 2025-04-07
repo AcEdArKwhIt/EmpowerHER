@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmpowerHER - Women Entrepreneurship Platform</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+</head>
+<body>
+    <!-- Navigation - Main navigation bar with responsive menu and logo -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">EmpowerHER</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#stories">Success Stories</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#map">Global Map</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Main landing section with call-to-action button -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Empowering Women Entrepreneurs Worldwide</h1>
+            <p>Connect, Learn, and Grow with a Global Community of Women Leaders</p>
+            <a href="#about" class="cta-button">Join Our Community</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>Our Mission</h2>
+        <div class="about-content">
+            <p>EmpowerHER is dedicated to supporting and empowering women entrepreneurs across the globe. We believe in creating opportunities, fostering connections, and providing resources that enable women to thrive in business.</p>
+        </div>
+    </section>
+
+    <!-- Success Stories Section - Dynamically populated grid of entrepreneur success stories -->
+    <section id="stories" class="stories">
+        <h2>Success Stories</h2>
+        <div class="stories-grid">
+            <!-- Story cards will be dynamically populated -->
+        </div>
+    </section>
+
+    <!-- Resources Section - Grid layout of business resources and tools for entrepreneurs -->
+    <section id="resources" class="resources">
+        <h2>Resources</h2>
+        <div class="resources-grid">
+            <div class="resource-card">
+                <h3>Business Planning</h3>
+                <ul>
+                    <li>Business Plan Templates</li>
+                    <li>Market Research Guides</li>
+                    <li>Financial Planning Tools</li>
+                </ul>
+            </div>
+            <div class="resource-card">
+                <h3>Funding</h3>
+                <ul>
+                    <li>Grant Opportunities</li>
+                    <li>Investor Networks</li>
+                    <li>Crowdfunding Platforms</li>
+                </ul>
+            </div>
+            <div class="resource-card">
+                <h3>Mentorship</h3>
+                <ul>
+                    <li>Find a Mentor</li>
+                    <li>Mentorship Programs</li>
+                    <li>Peer Support Groups</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Map Section - Interactive map showing entrepreneurship events and hubs -->
+    <section id="map" class="map-section">
+        <h2>Global Entrepreneurship Map</h2>
+        <div id="map-container"></div>
+    </section>
+
+    <!-- Contact Section - Contact form for user inquiries and story submissions -->
+    <section id="contact" class="contact">
+        <h2>Connect With Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Share your story or inquiry" required></textarea>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section - Site information, quick links, and social media connections -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>EmpowerHER</h3>
+                <p>Connecting and empowering women entrepreneurs globally</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#stories">Success Stories</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 EmpowerHER. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/map.js"></script>
+</body>
+</html>
